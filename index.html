@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Structure Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Data Structure Visualization</h1>
+        <p>Explore and visualize various data structures like arrays, linked lists, stacks, queues, and more.</p>
+    </header>
+    <p><b>Arrays</b>
+        Definition: A collection of elements identified by index or key. Elements are stored in contiguous memory locations.
+        Characteristics:
+        Fixed size.
+        Elements can be accessed randomly using indices.
+        Insertion and deletion operations can be costly.</p>
+    <div id="array-container" class="visualization-container">
+        <h2>Array</h2>
+        <!-- Array visualization will be rendered here -->
+    </div>
+    <p><b>Linked Lists</b>
+        <b>Singly Linked List:</b>
+        Each node contains data and a reference to the next node.
+        Operations (insertion, deletion) are efficient but accessing elements is slower compared to arrays.</p>
+    <div id="singly-linked-list-container" class="visualization-container">
+        <h2>Singly Linked List</h2>
+        <!-- Singly linked list visualization will be rendered here -->
+    </div>
+    <p><b>Doubly Linked List:</b>
+        Each node contains data, a reference to the next node, and a reference to the previous node.
+        Allows traversal in both directions.</p>
+    <div id="doubly-linked-list-container" class="visualization-container">
+        <h2>Doubly Linked List</h2>
+        <!-- Doubly linked list visualization will be rendered here -->
+    </div>
+    <p><b>Circular Linked List:</b>
+        The last node points to the first node, forming a circle.
+        Can be singly or doubly linked.</p>
+    <div id="circular-linked-list-container" class="visualization-container">
+        <h2>Circular Linked List</h2>
+        <!-- Circular linked list visualization will be rendered here -->
+    </div>
+    <p><b>Stacks</b>
+        Definition: A linear data structure following Last In First Out (LIFO) principle.
+        Characteristics: Supports operations like push (insert) and pop (remove).</p>
+    <div id="stack-container" class="visualization-container">
+        <h2>Stack</h2>
+        <!-- Stack visualization will be rendered here -->
+    </div>
+    <p><b>Queues</b>
+        Definition: A linear data structure following First In First Out (FIFO) principle.
+        Characteristics: Supports operations like enqueue (insert) and dequeue (remove).</p>
+    <div id="queue-container" class="visualization-container">
+        <h2>Queue</h2>
+        <!-- Queue visualization will be rendered here -->
+    </div>
+    <p><b>Deque (Double-ended Queue)</b>
+        Definition: A linear data structure that allows insertion and deletion from both ends.
+        Characteristics: Supports operations like enqueue and dequeue at both ends.</p>
+    <div id="deque-container" class="visualization-container">
+        <h2>Deque</h2>
+        <!-- Deque visualization will be rendered here -->
+    </div>
+    <p><b>Priority Queue</b>
+        Definition: A linear data structure where each element has a priority. Elements are dequeued in order of their priority.
+        Characteristics: Supports operations like insert with priority and remove highest priority.</p>
+    <div id="priority-queue-container" class="visualization-container">
+        <h2>Priority Queue</h2>
+        <!-- Priority Queue visualization will be rendered here -->
+    </div>
+    <!-- Add more containers for other data structures as needed -->
+    <script src="script.js"></script>
+</body>
+</html>

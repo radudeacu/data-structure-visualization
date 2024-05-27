@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.visualization-container {
+    width: 80%;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+}
+
+.array-element, .linked-list-node, .linked-list-node-doubly, .stack-element, .queue-element, .deque-element, .priority-queue-element, .heap-element {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid #000;
+    position: relative;
+    vertical-align: middle;
+}
+
+.linked-list-node {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linked-list-pointer-horizontal {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid black;
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.linked-list-node-doubly {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.linked-list-pointer-doubly {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid black;
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.linked-list-pointer-doubly-reverse {
+    transform: rotate(180deg);
+    left: -20px;
+    right: auto;
+}
+
+.stack-element {
+    display: block;
+    margin: 0 auto; /* Center the stack elements horizontally */
+}
+
+.stack-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center stack elements within the container */
+}
+
+.queue-element, .deque-element, .priority-queue-element {
+    display: inline-block;
+}
+
+.heap-element {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+section {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: left;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+/* Added to control the margin for paragraphs */
+p {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+/* Margin adjustment for h2 */
+h2 {
+    margin-right: 20px;
+}
+
+
